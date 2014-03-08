@@ -46,9 +46,11 @@ public class CustomDayGridAdapter extends DayGridAdapter {
 		// create the view using the super method
 		View v = super.getView(position, convertView, parent);
 		
-		// if it is a odd row, gonna set the background to light green
+		// if it is a odd row, gonna set the background to grey
 		if((position / 7) % 2 == 1)
-			v.setBackgroundColor(Color.rgb(65, 204, 93));
+			v.setBackgroundColor(Color.rgb(130, 130, 130));
+		else
+			v.setBackgroundColor(Color.WHITE);
 		
 		// if it is the selected day, I am going to load a special background
 		// from the resources

@@ -12,7 +12,7 @@ import android.app.DatePickerDialog;
 import android.app.DatePickerDialog.OnDateSetListener;
 import android.content.Intent;
 
-public class BonetCalendarViewExampleActivity extends Activity {
+public class ExampleActivity extends Activity {
 
 	private int mMinDay;
 	private int mMinMonth;
@@ -63,7 +63,7 @@ public class BonetCalendarViewExampleActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 				
-				DatePickerDialog dpg = new DatePickerDialog(BonetCalendarViewExampleActivity.this, new OnDateSetListener() {
+				DatePickerDialog dpg = new DatePickerDialog(ExampleActivity.this, new OnDateSetListener() {
 					
 					@Override
 					public void onDateSet(DatePicker picker, int year, int month, int day) {
@@ -78,7 +78,7 @@ public class BonetCalendarViewExampleActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 				
-				DatePickerDialog dpg = new DatePickerDialog(BonetCalendarViewExampleActivity.this, new OnDateSetListener() {
+				DatePickerDialog dpg = new DatePickerDialog(ExampleActivity.this, new OnDateSetListener() {
 					
 					@Override
 					public void onDateSet(DatePicker picker, int year, int month, int day) {
