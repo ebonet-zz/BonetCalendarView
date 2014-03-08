@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BonetCalendarViewExampleActivity" >
+
+    <Button
+        android:id="@+id/example_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calendar_as_list" />
+
+    <Button
+        android:id="@+id/example_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calendar_as_grid" />
+
+    <Button
+        android:id="@+id/example_custom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_calendar" />
+
+    <Button
+        android:id="@+id/min_date_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_min_date" />
+    
+    <Button
+        android:id="@+id/max_date_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_max_date" />
+
+</LinearLayout>

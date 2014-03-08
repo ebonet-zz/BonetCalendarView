@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- A stroke -->
+	<include layout="@layout/general_separator" />
+	
+	<!-- The grid view that will display names for the weekdays. -->
+	<GridView 
+	    android:id="@+id/weekdays_container"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:numColumns="7" />
+	
+    <!-- Another stroke -->
+	<include layout="@layout/general_separator" />
+	
+	<!-- The grid view that will display the months -->
+	<GridView 
+	    android:id="@+id/month_container"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:numColumns="7" />
+
+</LinearLayout>

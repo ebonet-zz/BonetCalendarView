@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BonetCalendarViewActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calendar_as_list">Calendar as List</string>
+    <string name="calendar_as_grid">Calendar as Grid</string>
+    <string name="custom_calendar">Custom Calendar</string>
+    <string name="set">Set</string>
+    <string name="min_date_">"Min Date: "</string>
+    <string name="set_min_date">Set Min Date</string>
+    <string name="set_max_date">Set Max Date</string>
+
+</resources>
