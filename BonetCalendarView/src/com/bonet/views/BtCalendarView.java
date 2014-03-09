@@ -32,7 +32,7 @@ import android.widget.ViewSwitcher;
  * API's 8 and above. Provides full customization capabilities for
  * two the month and year should be displayed.
  * 
- * For all features and instructions on how to use/ how to extend see ...
+ * For all features and instructions on how to use/ how to extend check this {@link https://github.com/ebonet/BonetCalendarView page}.
  * 
  * @author Eduardo Bonet
  */
