@@ -95,10 +95,6 @@ Tried it? Did you like it? That much? What about helping us continue to improve 
 
 1. **Share!** Tell your coworkers, friends, fellow programmers, your dog! Don't be selfish.
 2. **Contribute!** Do you think you just created the most awesome version of our calendar? Tell us by raising an issue, we could add you as a contributor.
-3. **Donate!** If you are feeling generous enough consider donating so we can buy our coffee. We need fuel too. Click the button below
-
-[![PayPayl donate button](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZFY33SFYZQ2W "Donate using PayPal")
-
 
 
 License
